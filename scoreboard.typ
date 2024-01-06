@@ -64,7 +64,7 @@
         [*6s*], [], [],
         [
             *Bonus _+35_ \
-            #text(size: SMALL_TEXT_SIZE)[(if sum > 63)]*
+            #text(size: SMALL_TEXT_SIZE)[(if sum #sym.gt.eq 63)]*
         ], [], [],
         [], [], [],
         [*Sum*], [], [],
